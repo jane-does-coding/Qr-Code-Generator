@@ -1,5 +1,5 @@
 # QR Code Generator
-<img width="959" alt="pomodoro" src="https://github.com/YevheniiaSimaka/Pomodoro-Timer/assets/112284703/71222ae0-3b86-4838-9c8d-0c40cb77932c">
+<img width="959" alt="qr-codde-generator" src="https://github.com/YevheniiaSimaka/Qr-Code-Generator/assets/112284703/25b846ff-d2ba-45fc-b779-dd206f27b778">
 
 ## Live Demo
 [QR Code Generator](https://qr-code-generator-svwr.vercel.app/)
