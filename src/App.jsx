@@ -13,7 +13,7 @@ function App() {
 
   return (
     <div className="w-full h-screen flex items-center justify-center">
-      <div className="w-fit h-fit">
+      <div className="w-fit h-fit flex flex-col items-center justify-center">
         <div>
           <h1 className="font-sans text-3xl mb-4 text-center">
             QR Code Generator
