@@ -5,7 +5,7 @@ import { MenuItem, Select, TextField, Typography } from "@mui/material";
 import { MuiColorInput } from "mui-color-input";
 import "./App.css";
 import Footer from "./components/Footer";
-import { IoDownload, IoDownloadOutline } from "react-icons/io5";
+import { IoDownload } from "react-icons/io5";
 
 export default function App() {
   const [url, setUrl] = useState<string>(

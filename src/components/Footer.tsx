@@ -1,4 +1,3 @@
-import React from "react";
 import { LuCopyright } from "react-icons/lu";
 
 const Footer = () => {
