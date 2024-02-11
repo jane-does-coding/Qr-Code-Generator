@@ -8,7 +8,7 @@
 [![My Skills](https://skillicons.dev/icons?i=vite,react,tailwind)](https://skillicons.dev)
 
 ## Description
-A great QR code generator! It's useful, if you need to place a website in the QR code on a poster, so people can get the information from it!
+A great QR code generator! It's useful, if you need to place a website in the QR code on a poster, so people can get the information from it! Simple enoght.
 
 ### Cloning the repository
 ```shell
