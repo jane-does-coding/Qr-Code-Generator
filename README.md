@@ -1,28 +1,30 @@
-# QR Code Generator
-<img width="959" alt="qr-codde-generator" src="https://github.com/YevheniiaSimaka/Qr-Code-Generator/assets/112284703/25b846ff-d2ba-45fc-b779-dd206f27b778">
+# React + TypeScript + Vite
 
-## Live Demo
-[QR Code Generator](https://qr-code-generator-svwr.vercel.app/)
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Tech Stack: 
-[![My Skills](https://skillicons.dev/icons?i=vite,react,tailwind)](https://skillicons.dev)
+Currently, two official plugins are available:
 
-## Description
-A great QR code generator! It's useful, if you need to place a website in the QR code on a poster, so people can get the information from it! Simple enoght.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-### Cloning the repository
-```shell
-git clone https://github.com/YevheniiaSimaka/Qr-Code-Generator
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+
+- Configure the top-level `parserOptions` property like this:
+
+```js
+export default {
+  // other rules...
+  parserOptions: {
+    ecmaVersion: 'latest',
+    sourceType: 'module',
+    project: ['./tsconfig.json', './tsconfig.node.json'],
+    tsconfigRootDir: __dirname,
+  },
+}
 ```
 
-### Installing the packages
-```shell
-npm i
-```
-
-### Running the website
-```shell
-npm run dev
-```
-
-
+- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
+- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
+- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
