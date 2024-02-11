@@ -1,4 +1,5 @@
 # Beautiful QR Code Generator
+<img width="959" alt="qr-codde-generator" src="https://github.com/YevheniiaSimaka/Qr-Code-Generator/assets/112284703/be81a5f5-9cf9-486f-9992-f66c446085d5">
 
 
 ## Live Demo
