@@ -1,6 +1,8 @@
 # Beautiful QR Code Generator
 <img width="959" alt="qr-codde-generator" src="https://github.com/YevheniiaSimaka/Qr-Code-Generator/assets/112284703/be81a5f5-9cf9-486f-9992-f66c446085d5">
 
+## Examples
+![qrs](https://github.com/YevheniiaSimaka/Qr-Code-Generator/assets/112284703/08d5a4f0-ef12-43c1-9304-518994dfd92a)
 
 ## Live Demo
 [QR Code Generator](https://qr-code-generator-3puymw2a4-yevheniia-simakas-projects.vercel.app/)
