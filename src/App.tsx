@@ -5,6 +5,7 @@ import { MenuItem, Select, TextField, Typography } from "@mui/material";
 import { MuiColorInput } from "mui-color-input";
 import "./App.css";
 import Footer from "./components/Footer";
+import { IoDownload, IoDownloadOutline } from "react-icons/io5";
 
 export default function App() {
   const [url, setUrl] = useState<string>(
@@ -222,6 +223,12 @@ export default function App() {
             disableElevation
             className="button"
             onClick={onDownloadClick}
+            endIcon={
+              <IoDownload
+                size={24}
+                style={{ color: "white", transform: "translateY(-2px)" }}
+              />
+            }
           >
             Download
           </Button>
