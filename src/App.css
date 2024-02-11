@@ -10,3 +10,7 @@
   background-color: rgb(97, 97, 97);
   border-radius: 10rem;
 }
+
+.button:hover {
+  background-color: rgb(61, 61, 61) !important;
+}

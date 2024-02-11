@@ -4,22 +4,23 @@ import Button from "@mui/material/Button";
 import { MenuItem, Select, TextField, Typography } from "@mui/material";
 import { MuiColorInput } from "mui-color-input";
 import "./App.css";
+import Footer from "./components/Footer";
 
 export default function App() {
   const [url, setUrl] = useState<string>(
-    "https://pomodoro-timer-eight-beryl.vercel.app/"
+    "https://www.youtube.com/results?search_query=qr+code"
   );
   const [imageUrl, setImageUrl] = useState<string>("/placeholder.png");
   const [userDotsOptions, setDotsOptions] = useState<any>({
-    color: "rgba(71, 108, 194)",
+    color: "rgba(33, 33, 33)",
     type: "classy-rounded",
   });
   const [userCornerSquareOptions, setCornerSquareOptions] = useState<any>({
-    color: "rgba(50, 58, 169)",
+    color: "rgba(68, 68, 68)",
     type: "dot",
   });
   const [userCornerDotOptions, setCornerDotOptions] = useState<any>({
-    color: "rgba(92, 104, 163)",
+    color: "rgba(137, 137, 137)",
     type: "dot",
   });
   const [fileExt, setFileExt] = useState<string>("png");
@@ -122,7 +123,7 @@ export default function App() {
 
   return (
     <div className="App flex">
-      <div className="w-[60%] px-12 py-6 h-screen overflow-auto flex flex-col gap-2">
+      <div className="w-[60%] px-12 py-6 pb-0 h-screen overflow-auto flex flex-col gap-2">
         <Typography
           component={"h1"}
           fontSize={"2rem"}
@@ -217,16 +218,16 @@ export default function App() {
           </Select>
           <Button
             variant="contained"
-            sx={{ padding: "0.5rem 2rem", background: "rgba(71, 108, 180)" }}
+            sx={{ padding: "0.5rem 2rem", background: "rgba(33, 33, 33)" }}
             disableElevation
+            className="button"
             onClick={onDownloadClick}
           >
             Download
           </Button>
         </div>
         <br />
-        <br />
-        <br />
+        <Footer />
       </div>
       <div className="flex items-center justify-center w-[40%] h-screen border-l-[1px] border-slate-300">
         <div ref={ref} />
