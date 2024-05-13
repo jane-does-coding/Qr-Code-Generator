@@ -123,8 +123,8 @@ export default function App() {
   };
 
   return (
-    <div className="App flex">
-      <div className="w-[60%] px-12 py-6 pb-0 h-screen overflow-auto flex flex-col gap-2">
+    <div className="App flex flex-col md:flex-row">
+      <div className="w-[100%] md:w-[60%] px-6 md:px-12 py-6 pb-0 h-fit md:h-screen overflow-auto flex flex-col gap-2">
         <Typography
           component={"h1"}
           fontSize={"2rem"}
@@ -207,7 +207,7 @@ export default function App() {
         <Typography component={"h3"} fontSize={"1.5rem"} my={"0.75rem"}>
           Download
         </Typography>
-        <div className="flex gap-6 w-full">
+        <div className="flex gap-2 md:gap-6 w-full">
           <Select
             onChange={onExtensionChange}
             sx={{ width: "100%" }}
@@ -234,9 +234,10 @@ export default function App() {
           </Button>
         </div>
         <br />
-        <Footer />
+        {/*         <Footer />
+         */}{" "}
       </div>
-      <div className="flex items-center justify-center w-[40%] h-screen border-l-[1px] border-slate-300">
+      <div className="flex items-center justify-center w-[100%] md:w-[40%] h-screen border-l-[1px] border-slate-300 bg-transparent">
         <div ref={ref} />
       </div>
     </div>
